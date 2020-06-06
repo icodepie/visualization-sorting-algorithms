@@ -4,6 +4,7 @@ from Bubble_sort import *
 from quick_sort import *
 from shell_sort import *
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog='main.py')
     parser.add_argument('--insertion', help='insertion sort algorithm',dest='insertion',action="store_true")
